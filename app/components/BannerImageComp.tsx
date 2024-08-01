@@ -36,7 +36,7 @@ const BannerImageComp = ({
       bannerBackground
     );
     const response = await getBannerData();
-    setBannerData([ ...response ]);
+    setBannerData([...response]);
     setIsEditBannerButtonClicked(false);
   };
 
@@ -59,15 +59,25 @@ const BannerImageComp = ({
           handleBannerEditing={handleBannerEditing}
         />
       )}
-      <div className="col-sm-6">
-        <div className={`card position-relative ${styles.card}`}>
+      <div className="d-flex justify-content-center">
+        <div
+          className={`card bg position-relative ${styles.card}`}
+          style={{
+            backgroundImage: `url(${bannerBackground})`,
+            backgroundSize:"cover",
+            backgroundRepeat: "repeat",
+            backgroundPosition: "center",
+          }}
+        >
           <div className="card-body">
             <MdEdit
-              className={styles.editButton}
+              className={`position-absolute end-0 text-white fs-5 ${styles.editButton}`}
               onClick={() => setIsEditBannerButtonClicked(true)}
             />
             <h5 className={`card-title fs-2 mt-4 ${styles.title}`}>{title}</h5>
-            <p className={`card-text mt-3 ${styles.description}`}>{description}</p>
+            <p className={`card-text mt-3 ${styles.description}`}>
+              {description}
+            </p>
             <button className="btn btn-primary">{CTA}</button>
           </div>
         </div>
