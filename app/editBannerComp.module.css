@@ -1,0 +1,49 @@
+.editBottomSheet {
+  width: 32%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 2rem;
+  left: 50%;
+  height: 80%;
+  overflow: scroll;
+  transform: translateX(-50%);
+  animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 0;
+  }
+}
+
+.imagesList {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.input {
+  width: 100%;
+  margin: 4px auto;
+  border: 1px solid rgb(211, 209, 209);
+  border-radius: 3px;
+  padding: 5px;
+  font-size: smaller;
+}
+
+.cancelButton {
+  cursor: pointer;
+  color: rgb(188, 191, 191);
+}
+
+.button {
+  border: 0;
+  background-color: #294744;
+}
+
+.button:hover {
+  background-color: #293836;
+}

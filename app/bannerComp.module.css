@@ -1,0 +1,18 @@
+.card {
+  max-width: 80%;
+  border-radius: 0%;
+}
+
+.editButton {
+  position: absolute;
+  right: 0;
+  margin-right: 13px;
+}
+
+.description {
+  max-width: 60%;
+}
+
+.title {
+  max-width: 70%;
+}

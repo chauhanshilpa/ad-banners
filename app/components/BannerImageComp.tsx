@@ -3,6 +3,7 @@ import { BannerElements } from "../helpers/interfaces";
 import { MdEdit } from "react-icons/md";
 import EditBannerTemplateBs from "./EditBannerTemplateBs";
 import { getBannerData, modifyBannerData } from "../api";
+import styles from "../BannerComp.module.css";
 
 interface Props extends BannerElements {
   setBannerData: React.Dispatch<React.SetStateAction<BannerElements[]>>;
@@ -59,11 +60,14 @@ const BannerImageComp = ({
         />
       )}
       <div className="col-sm-6">
-        <div className="card">
+        <div className={`card position-relative ${styles.card}`}>
           <div className="card-body">
-            <MdEdit onClick={() => setIsEditBannerButtonClicked(true)} />
-            <h5 className="card-title">{title}</h5>
-            <p className="card-text">{description}</p>
+            <MdEdit
+              className={styles.editButton}
+              onClick={() => setIsEditBannerButtonClicked(true)}
+            />
+            <h5 className={`card-title fs-2 mt-4 ${styles.title}`}>{title}</h5>
+            <p className={`card-text mt-3 ${styles.description}`}>{description}</p>
             <button className="btn btn-primary">{CTA}</button>
           </div>
         </div>
