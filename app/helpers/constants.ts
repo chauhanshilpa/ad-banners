@@ -32,7 +32,7 @@ export const BANNER_JSON: BannerElements[] = [
       "Indulge in our freshly baked cupcakes, crafted with love to bring you the sweetest delights in town!",
     CTA: "Shop Now",
     imageSrc:
-      "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1526045478516-99145907023c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFrZXVwfGVufDB8fDB8fHww",
     background:
       "https://images.unsplash.com/photo-1671299087726-f31a0b3e3f7d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     dataStyle: 3,
@@ -56,7 +56,7 @@ export const BANNER_JSON: BannerElements[] = [
       "Indulge in our freshly baked cupcakes, crafted with love to bring you the sweetest delights in town!",
     CTA: "Shop Now",
     imageSrc:
-      "https://images.unsplash.com/photo-1577084381314-cae9920e6871?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFydHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGZvb2R8ZW58MHx8MHx8fDA%3D",
     background:
       "https://images.unsplash.com/photo-1512206879471-b4d119aef899?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     dataStyle: 5,
@@ -92,7 +92,7 @@ export const BANNER_JSON: BannerElements[] = [
       "Indulge in our freshly baked cupcakes, crafted with love to bring you the sweetest delights in town!",
     CTA: "Shop Now",
     imageSrc:
-      "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGZvb2R8ZW58MHx8MHx8fDA%3D",
     background:
       "https://images.unsplash.com/photo-1577398628395-4ebd1f36731b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fHNpbXBsZSUyMHdhbGxwYXBlcnN8ZW58MHx8MHx8fDA%3D",
     dataStyle: 3,
@@ -104,7 +104,7 @@ export const BANNER_JSON: BannerElements[] = [
       "Indulge in our freshly baked cupcakes, crafted with love to bring you the sweetest delights in town!",
     CTA: "Shop Now",
     imageSrc:
-      "https://images.unsplash.com/photo-1494459940152-1e911caa8cc5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmVhY2h8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3VucmlzZXxlbnwwfHwwfHx8MA%3D%3D",
     background:
       "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     dataStyle: 5,
@@ -116,7 +116,7 @@ export const BANNER_JSON: BannerElements[] = [
       "Indulge in our freshly baked cupcakes, crafted with love to bring you the sweetest delights in town!",
     CTA: "Shop Now",
     imageSrc:
-      "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zmxvd2VyfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1527960609338-2f6aa1b6046c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D",
     background:
       "https://images.unsplash.com/photo-1487147264018-f937fba0c817?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     dataStyle: 4,
@@ -152,7 +152,7 @@ export const BANNER_JSON: BannerElements[] = [
       "Indulge in our freshly baked cupcakes, crafted with love to bring you the sweetest delights in town!",
     CTA: "Shop Now",
     imageSrc:
-      "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9tZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvbWV8ZW58MHx8MHx8fDA%3D",
     background:
       "https://plus.unsplash.com/premium_photo-1680781548118-3a7b4f8885f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fHNpbXBsZSUyMHdhbGxwYXBlcnN8ZW58MHx8MHx8fDA%3D",
     dataStyle: 2,
@@ -164,7 +164,7 @@ export const BANNER_JSON: BannerElements[] = [
       "Indulge in our freshly baked cupcakes, crafted with love to bring you the sweetest delights in town!",
     CTA: "Shop Now",
     imageSrc:
-      "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hcmtldHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1591189863430-ab87e120f312?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHZlZ2V0YWJsZXN8ZW58MHx8MHx8fDA%3D",
     background:
       "https://images.unsplash.com/photo-1546514355-7fdc90ccbd03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHNpbXBsZSUyMHdhbGxwYXBlcnN8ZW58MHx8MHx8fDA%3D",
     dataStyle: 5,

@@ -25,6 +25,15 @@
   scrollbar-width: none;
 }
 
+.image {
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.image:hover {
+  opacity: 90%;
+}
+
 .input {
   width: 100%;
   margin: 4px auto;
@@ -40,10 +49,36 @@
 }
 
 .button {
+  color: white;
   border: 0;
   background-color: #294744;
 }
 
 .button:hover {
+  color: white;
+  border: 0;
   background-color: #293836;
+}
+
+.editCardWrapper {
+  position: absolute;
+  top: 1.7rem;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+  width: 100%;
+  margin: auto 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .editBottomSheet {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .editBottomSheet {
+    width: 58%;
+  }
 }

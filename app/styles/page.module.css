@@ -1,0 +1,13 @@
+.banners {
+  margin: 2rem 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 992px){
+  .banners{
+    display: flex;
+    flex-direction: column;
+  }
+}
