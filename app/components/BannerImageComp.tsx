@@ -30,8 +30,7 @@ const BannerImageComp = ({
       bannerTitle,
       bannerDescription,
       buttonText,
-      bannerImageSrc,
-      background
+      bannerImageSrc
     );
     const response = await getBannerData();
     setBannerData([...response]);

@@ -36,9 +36,6 @@ const EditBannerTemplateBs = ({
   setIsEditBannerButtonClicked,
   handleBannerEditing,
 }: Props) => {
-  const changeBannerImage = (imageSrc: string) => {
-    setBannerImageSrc(imageSrc);
-  };
 
   return (
     <div className={`rounded p-3 z-1 bg-light ${styles.editBottomSheet}`}>
@@ -72,7 +69,7 @@ const EditBannerTemplateBs = ({
               width={40}
               alt="banner-image"
               className={`rounded-circle mx-1 ${styles.image}`}
-              onClick={() => changeBannerImage(imageSrc)}
+              onClick={() => setBannerImageSrc(imageSrc)}
             />
           ))}
         </div>

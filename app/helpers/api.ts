@@ -8,7 +8,6 @@ export async function modifyBannerData(
   bannerDescription: string,
   buttonText: string,
   bannerImageSrc: string,
-  bannerBackground: string
 ) {
   const toChangeBannerDataIndex = bannerData.findIndex(
     (data) => data.id === id
@@ -17,7 +16,6 @@ export async function modifyBannerData(
   bannerData[toChangeBannerDataIndex].description = bannerDescription;
   bannerData[toChangeBannerDataIndex].CTA = buttonText;
   bannerData[toChangeBannerDataIndex].imageSrc = bannerImageSrc;
-  bannerData[toChangeBannerDataIndex].background = bannerBackground;
 }
 
 export async function getBannerData() {
