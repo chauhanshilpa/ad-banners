@@ -1,8 +1,9 @@
 export interface BannerElements {
-  id: string
+  id: string;
   title: string;
   description: string;
   CTA: string;
   imageSrc: string;
   background: string;
+  dataStyle: number;
 }

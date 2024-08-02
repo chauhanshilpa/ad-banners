@@ -11,7 +11,15 @@ export default function Home() {
     <div className="container">
       <div className={styles.banners}>
         {bannerData.map(
-          ({ id, title, description, CTA, imageSrc, background }) => (
+          ({
+            id,
+            title,
+            description,
+            CTA,
+            imageSrc,
+            background,
+            dataStyle,
+          }) => (
             <BannerImageComp
               key={id}
               id={id}
@@ -20,6 +28,7 @@ export default function Home() {
               CTA={CTA}
               imageSrc={imageSrc}
               background={background}
+              dataStyle={dataStyle}
               setBannerData={setBannerData}
             />
           )
