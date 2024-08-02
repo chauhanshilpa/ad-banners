@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import styles from "../BannerComp.module.css";
+import styles from "../bannerComp.module.css";
 import { MdEdit } from "react-icons/md";
 import { bannerDataStyle } from "../helpers/bannerLayout";
 
