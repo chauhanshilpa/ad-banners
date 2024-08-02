@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ad Banners",
-  description: "A marketplace where you can cutsomize Ad Banners",
+  description: "Ad Banners marketplace",
 };
 
 export default function RootLayout({
