@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ad Banner
 
-## Getting Started
+## Description
 
-First, run the development server:
+Ad Banner is a one-page web app having list of customizable banners.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How to run the application?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1) Open the terminal on your local machine.
+2) Clone the repository.
+3) Run the command `npm install`.
+4) Run the command `npm start`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## User Interface Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The home page features several banners, each with its own edit button. Clicking the edit button allows to customize the image, title, description, and button text of the banner.
 
-## Learn More
+## Credits
 
-To learn more about Next.js, take a look at the following resources:
+ Ad Banner is created using [NextJS](https://nextjs.org/), [Bootstrap](https://getbootstrap.com/) for frontend styling and [React-icons](https://react-icons.github.io/react-icons/) for icons.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ All the images were sourced from [unsplash](https://unsplash.com/).
