@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { MdCancel } from "react-icons/md";
-import styles from "../styles/editBannerComp.module.css";
+import styles from "../editBannerComp.module.css";
 import { BANNER_JSON } from "../helpers/constants";
 import BannerImageCompCard from "./BannerImageCompCard";
 import { v4 as uuidv4 } from "uuid";

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { BANNER_JSON } from "./helpers/constants";
 import BannerImageComp from "./components/BannerImageComp";
-import styles from "./styles/page.module.css"
+import styles from "./page.module.css"
 
 export default function Home() {
   const [bannerData, setBannerData] = useState([...BANNER_JSON]);
