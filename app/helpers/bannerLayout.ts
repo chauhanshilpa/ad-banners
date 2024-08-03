@@ -13,7 +13,7 @@ export const bannerDataStyle = (dataStyle: number) => {
       title: "text-left w-50",
       description: "text-left w-50",
       button: "btn-outline-dark",
-      image: "rounded w-50 h-75 end-0  mt-5 bottom-0",
+      image: "rounded w-50 h-50 end-0  mt-5 bottom-0",
     };
     return style;
   } else if (dataStyle === 3) {
@@ -35,9 +35,9 @@ export const bannerDataStyle = (dataStyle: number) => {
     return style;
   } else if (dataStyle === 5) {
     let style = {
-      title: "w-75 text-left",
-      description: "w-75 text-left",
-      button: "btn-success text-black",
+      title: "w-75 text-left text-white",
+      description: "w-75 text-left text-white",
+      button: "btn-success text-black text-white",
       image: "end-0 bottom-0 rounded-circle",
     };
     return style;

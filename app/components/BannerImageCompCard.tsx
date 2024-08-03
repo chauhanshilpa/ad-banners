@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "../bannerComp.module.css";
-import { MdEdit } from "react-icons/md";
+import { MdEditSquare } from "react-icons/md";
 import { bannerDataStyle } from "../helpers/bannerLayout";
 
 interface Props {
@@ -46,9 +46,9 @@ const BannerImageCompCard = ({
   return (
     <div className={`w-100 d-flex justify-content-center`}>
       <div
-        className={`card bg w-100 position-relative ${styles.card}`}
+        className={`card rounded bg w-100 position-relative ${styles.card}`}
         style={{
-          minHeight: "23rem",
+          minHeight: "20rem",
           backgroundImage: `url(${bannerBackground})`,
           backgroundSize: "cover",
           backgroundRepeat: "repeat",
@@ -57,8 +57,8 @@ const BannerImageCompCard = ({
       >
         <div className="card-body">
           {!isSmall && (
-            <MdEdit
-              className={`position-absolute end-0 text-white fs-5 ${styles.editButton}`}
+            <MdEditSquare
+              className={`position-absolute end-0 text-white bg-black fs-5 ${styles.editButton}`}
               onClick={() =>
                 setIsEditBannerButtonClicked &&
                 setIsEditBannerButtonClicked(true)
@@ -66,8 +66,8 @@ const BannerImageCompCard = ({
             />
           )}
           <Image
-            width={200}
-            height={210}
+            width={100}
+            height={110}
             src={imageSrc}
             alt="banner-image"
             className={`position-absolute ${

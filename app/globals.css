@@ -1,4 +1,8 @@
+:root {
+  --background: 24, 9.8%, 10%; /* Example HSL value */
+}
+
 body{
   margin: 0;
-  background-color: #c1e4f6 !important;
+  background-color: hsl(var(--background)) !important;
 }
