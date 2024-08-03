@@ -71,14 +71,26 @@
   margin: auto 0;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1500px) {
   .editBottomSheet {
-    width: 80%;
+    width: 42%;
   }
 }
 
 @media only screen and (max-width: 900px) {
   .editBottomSheet {
     width: 58%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .editBottomSheet {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .editBottomSheet {
+    width: 98%;
   }
 }
