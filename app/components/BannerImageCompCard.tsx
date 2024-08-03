@@ -70,7 +70,7 @@ const BannerImageCompCard = ({
             height={110}
             src={imageSrc}
             alt="banner-image"
-            className={`position-absolute ${
+            className={`position-absolute object-fit-cover ${
               dataPosition && dataPosition.image
             } ${isSmall && dataStyle === 3 && "w-50 h-25"}}`}
           />
