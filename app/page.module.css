@@ -5,7 +5,13 @@
   gap: 1rem;
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 1200px){
+  .banners{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 814px){
   .banners{
     display: flex;
     flex-direction: column;
