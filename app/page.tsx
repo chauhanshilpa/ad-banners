@@ -9,6 +9,7 @@ export default function Home() {
 
   return (
     <div className="container">
+      <h1 className={`text-center text-secondary fw-bold mt-5 mb-5 ${styles.header}`}>Ad Banners</h1>
       <div className={styles.banners}>
         {bannerData.map(
           ({

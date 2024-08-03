@@ -44,7 +44,7 @@ const BannerImageCompCard = ({
     []
   );
   return (
-    <div className={`w-100 d-flex justify-content-center`}>
+    <div className={`w-100 d-flex justify-content-center rounded border`}>
       <div
         className={`card rounded bg w-100 position-relative ${styles.card}`}
         style={{

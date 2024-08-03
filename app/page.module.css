@@ -1,8 +1,21 @@
+.header{
+   text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(90, 98, 98),
+    0 0 80px rgb(90, 98, 98),
+    0 0 90px rgb(90, 98, 98),
+    0 0 100px rgb(90, 98, 98),
+    0 0 150px rgb(90, 98, 98);
+}
+
 .banners {
   margin: 2rem 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  grid-row-gap: 2.5rem;
+  grid-column-gap: 1rem;
 }
 
 @media only screen and (max-width: 1200px){
@@ -11,9 +24,18 @@
   }
 }
 
-@media only screen and (max-width: 814px){
+@media only screen and (max-width: 770px){
   .banners{
     display: flex;
     flex-direction: column;
+    margin: auto 5rem;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .banners{
+    display: flex;
+    flex-direction: column;
+    margin: auto 1rem;
   }
 }
