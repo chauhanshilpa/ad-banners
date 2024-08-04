@@ -86,6 +86,7 @@ const EditBannerTemplateBs = ({
             value={bannerTitle}
             className={styles.input}
             onChange={(event) => setBannerTitle(event.target.value)}
+            maxLength={15}
           />
           <br />
           <label htmlFor="description" className="text-secondary mt-3">
@@ -99,6 +100,7 @@ const EditBannerTemplateBs = ({
             value={bannerDescription}
             className={styles.input}
             onChange={(event) => setBannerDescription(event.target.value)}
+            maxLength={45}
           />
           <br />
           <label htmlFor="button-text" className="text-secondary mt-3">
@@ -112,6 +114,7 @@ const EditBannerTemplateBs = ({
             value={buttonText}
             className={styles.input}
             onChange={(event) => setButtonText(event.target.value)}
+            maxLength={12}
           />
           <br />
         </div>
