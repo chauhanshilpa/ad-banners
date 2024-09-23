@@ -2,8 +2,6 @@
 
 Ad Banner is a one-page web app having list of customizable banners.
 
-![homepage-screenshot](https://github.com/user-attachments/assets/e4e62f04-9c11-4859-acc8-50756e5a7d3b)
-
 ## How to run the application?
 
 1) Open the terminal on your local machine.
